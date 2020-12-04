@@ -1,0 +1,104 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-image: url('./pictures/fond/fond.jpg');
+    background-size: cover;
+    font-family:sans-serif;
+    
+}
+
+img{
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.conteneur{
+    width: 100%;
+    height: 100%;
+}
+
+.backAlign{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.blackFond{
+    width: 500px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px ;
+    color: white;
+    
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: white;
+}
+
+.form input{
+    border: none;
+    padding-left: 15px;
+    width: 300px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+
+button{
+    border: none;
+    width: 315px;
+    height: 35px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #00549F;
+    opacity: 1;
+}
+
+.check{
+    margin-left: 95px;
+}
+
+.checkLabel{
+    color:  rgb(201, 201, 201);
+}
+
+p{
+    text-align: center;
+    color:  rgb(160, 160, 160);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.welcomeMessage{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.welcomeMessage p{
+    color: white;
+    font-size: 25px;
+}
+.welcomeMessage a:hover{
+    text-decoration: underline;
+}
